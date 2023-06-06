@@ -62,7 +62,6 @@ h1 {
 
     background-color: rgb(0, 216, 0);
     border-radius: 20px;
-    margin: auto;
     width: 950px;
     height: 50px;
 
@@ -74,6 +73,11 @@ h1 {
     display: block;
     width: 340px;
 }
+
+section {
+    margin-top: 20px;
+}
+
 .modelli {
     color: white;
     font-weight: 500;
@@ -89,3 +93,35 @@ h1 {
     height: 20px;
     width: 20px;
 }
+
+.charge_level_yellow {
+    height: 20px; 
+    width: 350px; 
+    background-color: yellow; 
+    margin: 10px 0px 0px 0px; 
+    border-radius: 10px;
+}
+.charge_level_green {
+    height: 20px; 
+    width: 400px; 
+    background-color: green; 
+    margin: 10px 0px 0px 0px; 
+    border-radius: 10px;
+}
+.charge_level_red {
+    height: 20px; 
+    width: 600px; 
+    background-color: red; 
+    margin: 10px 0px 0px 0px; 
+    border-radius: 10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 20;
+    color: white;
+    
+  }
